@@ -1,0 +1,43 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0 auto; 
+    padding: 0;
+    width: 70%;
+}
+
+h2 {
+    color: #333;
+}
+
+.example {
+    padding: 10px;
+    margin: 5px;
+    background-color: #ffd700; 
+    border: 1px solid #ccc;
+    cursor: pointer; /* Cambia el cursor al pasar sobre los elementos con la clase "example" */
+}
+
+input.example {
+    padding: 5px;
+    margin: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Estilos dentro de clickEvents y focusEvents */
+#clickEvents,
+#focusEvents {
+    margin-bottom: 20px;
+}
+
+#clickEvents .example:hover,
+#focusEvents .example:focus {
+    background-color: #ffc107; 
+    outline: none; 
+}
